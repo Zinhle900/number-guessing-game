@@ -1,4 +1,5 @@
 #!/bin/bash
+# Number Guessing Game - tracks user stats via PostgreSQL
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
