@@ -63,3 +63,4 @@ else
   # Only update best_game if this game was better (or no best_game set yet)
   $PSQL "UPDATE players SET best_game = $NUMBER_OF_GUESSES WHERE username='$USERNAME_INPUT' AND (best_game = 0 OR best_game > $NUMBER_OF_GUESSES)" > /dev/null
 fi
+
